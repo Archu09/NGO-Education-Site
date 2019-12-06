@@ -1,0 +1,180 @@
+body{
+    font-size: 26px;
+    font-family:"Dancing Script";
+    height: 100%;
+  
+    
+    transition: 2s;
+}
+nav{
+    font-size:20px;
+    
+   
+}
+li{
+    font-size:20px;
+    
+}
+
+.parallax {
+    /* The image used */
+    background-image: url(../Wedding_Invitation/indian_weddings_photography_free_wallpaper.jpg);
+    /* Set a specific height */
+  min-height: 800px; 
+  padding-top: 15%;
+ 
+  /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax1{
+    /* The image used */
+    background-image: url(../Wedding_Invitation/wedding_music_1.jpg);
+    /* Set a specific height */
+  min-height: 1000px; 
+  padding-top: 10%;
+ 
+  /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2  {
+    /* The image used */
+    
+    background-image: url(../Wedding_Invitation/Girl-boy-suit.jpg);
+
+    /* Set a specific height */
+  min-height: 1000px; 
+  padding-top: 10%;
+    
+  /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size: 50px;
+    font-style: oblique;
+}
+h2{
+    font-family: 35px;
+    
+}
+.div-text{
+    color: antiquewhite;
+   
+    text-align: center;
+    margin-left:2%;
+}
+.div-text-1{
+    color:black;
+    
+    text-align: center;
+    margin-left:2%;
+}
+button{
+    font-size: 25px;
+   font-weight:bold;
+    color: black;
+    border-radius: 25px;
+    border: none;
+    opacity: 0.8;
+    background-color: rgb(153, 28, 53);
+}
+button:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+#div-box-visible
+{
+    opacity: 0.8;   
+   color: #000;
+    background-color: #aaaaaa;
+    border-top-left-radius: 50px;
+border-bottom-right-radius: 50px;
+width: 340px;margin-left: -2%;  
+
+}
+#div-box-visible2
+{
+    opacity: 0.7;   
+   color: #000;
+    background-color: #aaaaaa;
+    padding: 8%;
+    margin-top:3%;
+    border-radius: 50%;
+    width: 100%;
+
+}
+#section1{
+    margin-top:50px;
+
+}
+#section2{
+    margin-top:50px;
+    padding-top: 5%;
+    
+}
+#section3{
+    margin-top:50px;
+    
+    
+}
+#section41{
+    margin:0px;
+    height: 600px;
+    padding: 150px;
+    
+    
+}
+#section42{
+    margin:5%;
+    height: 800px;
+    padding-top: 150px;;
+    
+}
+#section5{
+    margin-top:50px;
+    
+}
+.modal{
+    display: none;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 2;
+    top: 0;
+    height: 100px;
+     /* Full width */
+    height: 250%; /* Full height */
+    width: 100%;
+    overflow:auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 100%;
+}
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover, {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
